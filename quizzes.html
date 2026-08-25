@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">⬅ Back</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+
+    <h2>📝 Simple Quiz</h2>
+
+    <p id="question">Question will appear here</p>
+
+    <div id="options"></div>
+
+    <button onclick="nextQuestion()" class="btn btn-dark mt-3">Next</button>
+    
+<button onclick="restartQuiz()" class="btn btn-secondary mt-3">
+  Restart Quiz
+</button>
+
+    <h4 class="mt-4" id="score"></h4>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
